@@ -137,10 +137,8 @@
                 "datatype": "text",
                 "dim": "[dashboards.instanceType]",
                 "filter": {
-                    "explicit": true,
-                    "members": [
-                        "owner"
-                    ],
+                    "all": true,
+                    "explicit": false,
                     "multiSelection": true
                 },
                 "firstday": "mon",
@@ -209,7 +207,7 @@
             }
         },
         {
-            "disabled": true,
+            "disabled": false,
             "instanceid": "DB619-252E-2F",
             "isCascading": false,
             "jaql": {
